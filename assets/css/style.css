@@ -1,0 +1,160 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+body,
+html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(60, 0, 0, 0.5), rgba(0, 20, 0, 0.5)), url(/images/13.png);
+
+
+
+
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+.hero-text p {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-display: swap;
+    padding: 0 10px;
+    text-decoration: none;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.card {
+    box-shadow: 0 0 30px rgba(228, 167, 55, 0.5);
+    overflow: hidden;
+    border-radius: 15px;
+    width: 200;
+
+    margin: 10px;
+
+}
+
+.card-img-top {
+    border-radius: 0;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+section .product-page {
+    padding: 30px 0;
+    margin: 30px 0;
+    margin-bottom: 30px;
+}
+
+p.price {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    background-color: rgb(145, 144, 138);
+}
+
+.btn {
+    background-color: #050505;
+    border: none;
+    border-radius: 0;
+    color: #fffafa;
+    font-size: 16px;
+    font-weight: 600;
+   
+ 
+    transition: all 0.3s ease-in-out;
+
+  justify-content: center;
+
+}
+
+.col-md-6 {
+    margin-bottom: 20px;
+}
+
+.contact-page{
+    background-color: #050505;
+    border: none;
+    border-radius: 0;
+    color: #fffafa;
+    font-size: 16px;
+    font-weight: 600;
+   
+ 
+    transition: all 0.3s ease-in-out;
+
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-display: swap;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+  background-color: #050505;
+  border-radius: 5px;
+  border: 1px solid #050505;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
