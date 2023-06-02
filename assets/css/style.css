@@ -17,22 +17,36 @@ html {
 }
 
 /* The hero image */
-.hero-image {
+.hero-image .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/133.jpg);
+    /* background-image: linear-gradient(rgba(60, 0, 0, 0.5), rgba(0, 20, 0, 0.5)), url(/images/Port\ Waikato-Birds\ eyeview1.JPG); */
 
-
-
-
-
+   max-width: 1200px; 
     /* Set a specific height */
-    height: 50%;
-
+    height:20%;
+  color: #050505;
+ position: relative;
     /* Position and center the image to scale nicely on all screens */
+
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-display: swap;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    background-color: #050505;
+    border-radius: 5px;
+    border: 1px solid #050505;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 /* Place text in the middle of the image */
@@ -44,6 +58,10 @@ html {
     transform: translate(-50%, -50%);
     color: white;
 
+}
+
+section.hero {
+    background-color: black;
 }
 
 .hero-text h1 {
@@ -155,6 +173,22 @@ p.price {
   background-color: #050505;
   border-radius: 5px;
   border: 1px solid #050505;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.about {
+
+
+  justify-content: center;
+  
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-display: swap;
+  font-size: 20px;
+  font-weight: 400;
+ 
+
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
